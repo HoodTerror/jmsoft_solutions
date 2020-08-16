@@ -1,0 +1,117 @@
+/*    Header:
+-----------------*/
+header .ref-about-contact-background {
+    background-image: url("../../img/main/about.jpg");
+    background-position: left top;
+}
+
+/*    Main:
+---------------*/
+/* About Section 1 */
+main .about-section-1 .about-container {
+    position: relative;
+}
+
+main .about-section-1 img {
+    display: block;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main .about-section-1 .nfo {
+    width: 55%;
+    margin-left: 45%;
+    padding-left: 5%;
+}
+
+main .about-section-1 .nfo h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+main .about-section-1 .nfo hr {
+    width: 150px;
+    height: 0.8px;
+    margin-left: 0;
+    background-color: #00c5ba;
+    border: none;
+}
+
+main .about-section-1 .nfo p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 30px 0 0;
+}
+
+/* About Section 2 */
+main .about-section-2 {
+    background-color: #e6eff8;
+}
+
+main .about-section-2 h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+main .about-section-2 hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+main .about-section-2 .advantages {
+    margin-top: 30px;
+}
+
+main .about-section-2 .advantages::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .about-section-2 .advantages > div {
+    float: left;
+    width: 33.3333%;
+    height: 400px;
+    padding: 60px 40px;
+}
+
+main .about-section-2 .advantages > div:first-child,
+main .about-section-2 .advantages > div:nth-child(2),
+main .about-section-2 .advantages > div:nth-child(3) {
+    border-bottom: 0.8px solid #00c5ba;
+}
+
+main .about-section-2 .advantages > div:first-child,
+main .about-section-2 .advantages > div:nth-child(2),
+main .about-section-2 .advantages > div:nth-child(4),
+main .about-section-2 .advantages > div:nth-child(5) {
+    border-right: 0.8px solid #00c5ba;
+}
+
+main .about-section-2 .advantages img {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+main .about-section-2 .advantages h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+main .about-section-2 .advantages p {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    opacity: 0.7;
+}

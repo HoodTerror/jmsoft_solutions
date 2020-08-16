@@ -1,0 +1,177 @@
+/*    Header:
+-----------------*/
+header .services-background {
+    background-image: url("../../../img/main/product-development.jpg");
+}
+
+/*    Main:
+---------------*/
+main .product-development-section-1 h1,
+main .product-development-section-2 h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+main .product-development-section-1 hr,
+main .product-development-section-2 hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+/* Product Development Section 1 */
+main .product-development-section-1 .app-dev {
+    margin-top: 40px;
+}
+
+main .product-development-section-1 .app-dev::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .product-development-section-1 .app-dev > div {
+    float: left;
+}
+
+main .product-development-section-1 .app-dev > div:first-child {
+    width: 50%;
+    height: 480px;
+}
+
+main .product-development-section-1 .app-dev > div:first-child img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+}
+
+main .product-development-section-1 .app-dev > div:nth-child(2) {
+    width: 50%;
+    height: 480px;
+    padding-top: 60px;
+}
+
+main .product-development-section-1 .app-dev > div:nth-child(3) {
+    width: 45%;
+    height: 435px;
+    padding-top: 80px;
+}
+
+main .product-development-section-1 .app-dev > div:last-child {
+    width: 55%;
+    height: 435px;
+}
+
+main .product-development-section-1 .app-dev > div:last-child img {
+    width: 100%;
+}
+
+main .product-development-section-1 .app-dev h2 {
+    margin: 0;
+}
+
+main .product-development-section-1 .app-dev p,
+main .product-development-section-1 .app-dev ul {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    margin: 30px 0 0;
+}
+
+main .product-development-section-1 .app-dev p {
+    text-align: justify;
+}
+
+main .product-development-section-1 .app-dev ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+main .product-development-section-1 .app-dev ul li::before {
+    content: "\2022";
+    display: inline-block; 
+    width: 1em;
+    font-weight: 800;
+    color: #00c5ba;
+}
+
+/* Product Development Section 2 */
+main .product-development-section-2 {
+    background-color: #e6eff8;
+}
+
+main .product-development-section-2 .industries {
+    margin-top: 40px;
+}
+
+main .product-development-section-2 .industries::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .product-development-section-2 .industries .industry {
+    float: left;
+    width: 33.3333%;
+}
+
+main .product-development-section-2 .industries .industry:first-child {
+    padding: 0 12px 9px 0;
+}
+
+main .product-development-section-2 .industries .industry:nth-child(2) {
+    padding: 0 6px 9px;
+}
+
+main .product-development-section-2 .industries .industry:nth-child(3) {
+    padding: 0 0 9px 12px;
+}
+
+main .product-development-section-2 .industries .industry:nth-child(4) {
+    padding: 9px 12px 0 0;
+}
+
+main .product-development-section-2 .industries .industry:nth-child(5) {
+    padding: 9px 6px 0;
+}
+
+main .product-development-section-2 .industries .industry:last-child {
+    padding: 9px 0 0 12px;
+}
+
+main .product-development-section-2 .industries .industry > div {
+    width: 100%;
+    height: 120px;
+    border: 4px solid rgba(0, 197, 186, 0.2);
+}
+
+main .product-development-section-2 .industries .icon {
+    float: left;
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+main .product-development-section-2 .industries .heading {
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-right: 30px;
+}
+
+main .product-development-section-2 .industries img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .product-development-section-2 .industries h4 {
+    margin: 0;
+    padding: 44.5px 0;
+    text-align: center;
+}

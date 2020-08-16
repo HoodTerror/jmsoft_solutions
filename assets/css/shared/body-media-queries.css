@@ -1,0 +1,28 @@
+@media screen and (max-width: 1366px) {
+    .main-width {
+        width: 80%;
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .main-width {
+        width: 90%;
+        margin: 0 5%;
+    }
+    
+    /*    Scroll To Top Button:
+    -------------------------------*/
+    .scroll-to-top {
+        right: 1.5%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /*    Scroll To Top Button:
+    -------------------------------*/
+    .scroll-to-top {
+        right: 1%;
+        transition: bottom 0.5s linear;
+    }
+}

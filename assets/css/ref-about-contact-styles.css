@@ -1,0 +1,23 @@
+/*    Header:
+-----------------*/
+header .ref-about-contact-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+}
+
+header .ref-about-contact-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .ref-about-contact-background h1 {
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    right: 15%;
+    color: #ffffff;
+    font-size: 3.2em;
+    font-weight: 700;
+}

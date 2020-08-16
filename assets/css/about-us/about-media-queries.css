@@ -1,0 +1,109 @@
+@media screen and (max-width: 1680px) {
+    /*    Main:
+    ---------------*/
+    /* About Section 1 */
+    main .about-section-1 img {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /*    Main:
+    ---------------*/
+    /* About Section 1 */
+    main .about-section-1 img {
+        position: static;
+        top: 0;
+        transform: none;
+        width: 100%;
+        max-width: 480px;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+    
+    main .about-section-1 .nfo {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    
+    main .about-section-1 .nfo h1 {
+        text-align: center;
+    }
+    
+    main .about-section-1 .nfo hr {
+        margin: auto;
+    }
+    
+    main .about-section-1 .nfo p {
+        text-align: center;
+    }
+    
+    /* About Section 2 */
+    main .about-section-2 .advantages > div {
+        width: 50%;
+        padding: 70px 50px;
+    }
+    
+    main .about-section-2 .advantages > div:first-child,
+    main .about-section-2 .advantages > div:nth-child(3) {
+        border-right: 0.8px solid #00c5ba;
+        border-bottom: 0.8px solid #00c5ba;
+    }
+    
+    main .about-section-2 .advantages > div:nth-child(2),
+    main .about-section-2 .advantages > div:nth-child(4) {
+        border-right: none;
+        border-bottom: 0.8px solid #00c5ba;
+    }
+    
+    main .about-section-2 .advantages > div:nth-child(5) {
+        border-right: 0.8px solid #00c5ba;
+        border-bottom: none;
+    }
+    
+    main .about-section-2 .advantages > div:last-child {
+        border-right: none;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Header:
+    -----------------*/
+    header .background {
+        background-image: url("../../img/main/about-2.jpg");
+    }
+    
+    /*    Main:
+    ---------------*/
+    /* About Section 2 */
+    main .about-section-2 .advantages > div {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    
+    main .about-section-2 .advantages > div:not(:last-child) {
+        border-right: none;
+        border-bottom: 0.8px solid #00c5ba;
+    }
+    
+    main .about-section-2 .advantages > div:first-child {
+        padding-top: 0;
+    }
+    
+    main .about-section-2 .advantages > div:last-child {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*    Main:
+    ---------------*/
+    /* About Section 2 */
+    main .about-section-2 .advantages > div {
+        padding: 40px 10px;
+    }
+}

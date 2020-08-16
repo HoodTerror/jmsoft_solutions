@@ -1,0 +1,324 @@
+main .index-section-2,
+main .index-section-5 {
+    background-color: #e6eff8;
+}
+
+main .index-section-1 h1,
+main .index-section-2 h1,
+main .index-section-3 h1,
+main .index-section-4 h1,
+main .index-section-5 h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+main .index-section-1 .main-width > hr,
+main .index-section-2 .main-width > hr,
+main .index-section-4 .main-width > hr,
+main .index-section-5 .main-width > hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+main .index-section-1 p,
+main .index-section-2 p,
+main .index-section-3 p,
+main .index-section-5 p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+main .index-section-1 .details,
+main .index-section-2 .details {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    padding: 0 10px;
+    opacity: 0.7;
+}
+
+/*    Index Section 1:
+--------------------------*/
+main .index-section-1 .icon-links::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+main .index-section-1 .icon-links > div {
+    float: left;
+    width: 33.3333%;
+}
+
+main .index-section-1 .icon-links a {
+    display: block;
+    width: 105px;
+    height: 105px;
+    margin: auto;
+    text-decoration: none;
+    background-color: #42454b;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+
+main .index-section-1 .icon-links a:hover,
+main .index-section-1 .icon-links a:active {
+    transform: scale(1.1);
+}
+
+main .index-section-1 .icon-links a:hover ~ hr,
+main .index-section-1 .icon-links a:active ~ hr {
+    width: 200px;
+}
+
+main .index-section-1 .icon-links a i {
+    display: block;
+    text-align: center;
+    line-height: 103px;
+    font-size: 2em;
+    color: #ffffff;
+}
+
+main .index-section-1 .icon-links h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 25px 0 10px;
+}
+
+main .index-section-1 .icon-links hr {
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #00c5ba;
+    border: none;
+    transition: width 0.5s;
+}
+
+main .index-section-1 .details {
+    margin: 10px 0 0;
+}
+
+/*    Index Section 2:
+--------------------------*/
+main .index-section-2 .image-links::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+main .index-section-2 .image-links > div {
+    float: left;
+    width: 33.3333%;
+}
+
+main .index-section-2 .image-links > div:first-child {
+    padding-right: 20px;
+}
+
+main .index-section-2 .image-links > div:nth-child(2) {
+    padding: 0 10px;
+}
+
+main .index-section-2 .image-links > div:last-child {
+    padding-left: 20px;
+}
+
+main .index-section-2 .image-links a {
+    display: block;
+    text-decoration: none;
+    color: #1c1c1c;
+    background-color: #f5f5f5;
+    padding: 10px 10px 25px;
+    position: relative;
+    top: 0;
+    transition: top 0.2s, box-shadow 0.5s;
+}
+
+main .index-section-2 .image-links a:hover,
+main .index-section-2 .image-links a:active {
+    top: -3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+main .index-section-2 .image-links .image {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main .index-section-2 .image-links > div:first-child .image {
+    background-image: url("../../img/projects/1.jpg");
+}
+
+main .index-section-2 .image-links > div:nth-child(2) .image {
+    background-image: url("../../img/projects/2.jpg");
+}
+
+main .index-section-2 .image-links > div:last-child .image {
+    background-image: url("../../img/projects/3.jpg");
+}
+
+main .index-section-2 .image-links .image .image-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+main .index-section-2 .image-links .image h3 {
+    margin: 0;
+    padding: 15px;
+    text-align: right;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+main .index-section-2 .details {
+    margin: 25px 0 0;
+}
+
+main .index-section-2 .image-links .upper-angle,
+main .index-section-2 .image-links .lower-angle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+main .index-section-2 .image-links .upper-angle {
+    top: 4px;
+    left: 4px;
+    border-top: 2px solid #00c5ba;
+    border-left: 2px solid #00c5ba;
+}
+
+main .index-section-2 .image-links .lower-angle {
+    right: 4px;
+    bottom: 4px;
+    border-right: 2px solid #00c5ba;
+    border-bottom: 2px solid #00c5ba;
+}
+
+
+/*    Index Section 3:
+--------------------------*/
+main .index-section-3 {
+    background-color: #42454b;
+    color: #ffffff;
+}
+
+main .index-section-3 .button-links {
+    text-align: center;
+}
+
+main .index-section-3 .button-links a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #ffffff;
+    width: 200px;
+    padding: 12px 0;
+    margin: 0 5px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+main .index-section-3 .button-links a:first-child {
+    border-color: #ffffff;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+main .index-section-3 .button-links a:first-child:hover,
+main .index-section-3 .button-links a:first-child:active {
+    background-color: #ffffff;
+    color: #1c1c1c;
+}
+
+main .index-section-3 .button-links a:last-child {
+    background-color: #00c5ba;
+    border-color: #00c5ba;
+    transition: background-color 0.5s;
+}
+
+main .index-section-3 .button-links a:last-child:hover,
+main .index-section-3 .button-links a:last-child:active {
+    background-color: transparent;
+}
+
+/*    Index Section 4:
+--------------------------*/
+main .index-section-4 .pic-plus-facts {
+    margin-top: 30px;
+}
+
+main .index-section-4 .pic-plus-facts::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .index-section-4 .pic-plus-facts .pic,
+main .index-section-4 .pic-plus-facts .facts {
+    float: left;
+    width: 50%;
+    height: 450px;
+    position: relative;
+}
+
+main .index-section-4 .pic-plus-facts .pic img {
+    display: block;
+    width: 100%;
+    padding-right: 2.5%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+main .index-section-4 .pic-plus-facts .facts {
+    padding: 50px 0;
+}
+
+main .index-section-4 .pic-plus-facts .facts > div {
+    overflow: hidden;
+    height: 33.3333%;
+}
+
+main .index-section-4 .pic-plus-facts .facts .icon {
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+main .index-section-4 .pic-plus-facts .facts img {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main .index-section-4 .pic-plus-facts .facts .fact {
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding-top: 37px;
+    font-weight: 600;
+}
+
+/*    Index Section 5:
+--------------------------*/
+main .index-section-5 form {
+    max-width: 800px;
+    margin: auto;
+}

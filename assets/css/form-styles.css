@@ -1,0 +1,79 @@
+form,
+form button {
+    font-size: 12.3px;
+    line-height: 25px;
+}
+
+form {
+    font-weight: 700;
+}
+
+form .name-email,
+form .subject,
+form .message {
+    margin-bottom: 20px;
+}
+
+form .name-email::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+form .name-email .name {
+    float: left;
+    width: 48%;
+}
+
+form .name-email .email {
+    float: right;
+    width: 48%;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    border: 1.6px solid rgba(0, 0, 0, 0.1);
+    transition: border-color 0.5s;
+}
+
+form input:focus,
+form textarea:focus,
+form button:focus {
+    outline: none;
+    border-color: #00c5ba;
+}
+
+form textarea {
+    resize: none;
+    overflow: auto;
+}
+
+form button {
+    background-image: linear-gradient(#00c5ba, #0f3238);
+    padding: 0;
+    border: none;
+}
+
+form button:hover div,
+form button:active div {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+form button div {
+    height: 100%;
+    background-color: #00c5ba;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 32px;
+    transition: background-color 0.5s;
+}
+
+form button i {
+    font-size: 1.2em;
+}

@@ -1,0 +1,35 @@
+/*    Header:
+-----------------*/
+header .services-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 580px;
+    position: relative;
+}
+
+header .services-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header .services-background .caption {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+header .services-background h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 3.2em;
+    font-weight: 700;
+}
+
+header .services-background hr {
+    margin: 10px 0 0;
+    background-color: #00c5ba;
+    width: 200px;
+    height: 3px;
+    border: none;
+}

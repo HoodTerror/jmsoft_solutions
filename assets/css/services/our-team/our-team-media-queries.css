@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px) {
+    /*    Main:
+    ---------------*/
+    /* Our Team Section 2 */
+    main .our-team-section-2 .members .member {
+        width: 50%;
+    }
+    
+    main .our-team-section-2 .members .member:nth-child(3) {
+        padding-top: 40px;
+    }
+    
+    main .our-team-section-2 .members .member:first-child div,
+    main .our-team-section-2 .members .member:nth-child(3) div,
+    main .our-team-section-2 .members .member:nth-child(4) div,
+    main .our-team-section-2 .members .member:last-child div {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Header:
+    -----------------*/
+    header .services-background {
+        background-image: url("../../../img/main/our-team-2.jpg");
+    }
+    
+    /*    Main:
+    ---------------*/
+    /* Our Team Section 2 */
+    main .our-team-section-2 .members .member {
+        width: 100%;
+    }
+    
+    main .our-team-section-2 .members .member:nth-child(2) {
+        padding-top: 40px;
+    }
+}

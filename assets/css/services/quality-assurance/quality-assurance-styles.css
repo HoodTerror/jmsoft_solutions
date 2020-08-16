@@ -1,0 +1,113 @@
+/*    Header:
+-----------------*/
+header .services-background {
+    background-image: url("../../../img/main/quality-assurance.jpg");
+}
+
+/*    Main:
+---------------*/
+main .quality-assurance-section-1 h1,
+main .quality-assurance-section-2 h1,
+main .quality-assurance-section-3 h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+main .quality-assurance-section-1 hr,
+main .quality-assurance-section-2 hr,
+main .quality-assurance-section-3 hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+main .quality-assurance-section-1 p,
+main .quality-assurance-section-2 p,
+main .quality-assurance-section-3 p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+/* Quality Assurance Section 1 & 3 */
+main .quality-assurance-section-1 .qualities::after,
+main .quality-assurance-section-3 .tests::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .quality-assurance-section-1 .qualities > div,
+main .quality-assurance-section-3 .tests > div {
+    float: left;
+    width: 33.3333%;
+    padding: 0 30px;
+}
+
+main .quality-assurance-section-1 .qualities img,
+main .quality-assurance-section-3 .tests img {
+    display: block;
+    margin: auto;
+}
+
+main .quality-assurance-section-1 .qualities h3,
+main .quality-assurance-section-3 .tests h3 {
+    text-align: center;
+}
+
+main .quality-assurance-section-1 .qualities .p,
+main .quality-assurance-section-3 .tests .p {
+    text-align: center;
+}
+
+/* Quality Assurance Section 1 */
+main .quality-assurance-section-1 .qualities img {
+    width: 60px;
+    height: 60px;
+}
+
+/* Quality Assurance Section 2 */
+main .quality-assurance-section-2 {
+    background-image: url("../../../img/project-management.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding: 0;
+}
+
+main .quality-assurance-section-2 .glass {
+    height: 100%;
+    background-color: rgba(230, 239, 248, 0.8);
+    padding: 60px 0 80px;
+}
+
+main .quality-assurance-section-2 ul {
+    margin: auto;
+    padding: 0;
+    width: 97px;
+}
+
+main .quality-assurance-section-2 ul li {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+main .quality-assurance-section-2 ul li:first-child {
+    padding-bottom: 20px;
+}
+
+main .quality-assurance-section-2 ul i {
+    font-size: 1.5em;
+    color: #00c5ba;
+}
+
+/* Quality Assurance Section 3 */
+main .quality-assurance-section-3 .tests img {
+    width: 80px;
+    height: 80px;
+}

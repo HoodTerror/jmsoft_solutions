@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: #00c5ba;
+    color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #1c1c1c;
+    background-color: #f5f5f5;
+}
+
+section {
+    padding: 60px 0 80px;
+}
+
+.main-width {
+    width: 70%;
+    margin: 0 15%;
+}
+
+/*    Scroll To Top Button:
+-------------------------------*/
+.scroll-to-top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: -40px;
+    right: 2%;
+    z-index: 2;
+    background-color: rgba(15, 50, 56, 0.95);
+    transition: background-color 0.5s, bottom 0.5s ease-in;
+}
+
+.scroll-to-top:hover,
+.scroll-to-top:active {
+    background-color: #00c5ba;
+    cursor: pointer;
+}
+
+.scroll-to-top i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}

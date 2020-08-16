@@ -1,0 +1,94 @@
+/*    Header:
+-----------------*/
+header .services-background {
+    background-image: url("../../../img/main/our-team.jpg");
+}
+
+/*    Main:
+---------------*/
+main .our-team-section-1 h1,
+main .our-team-section-2 h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+main .our-team-section-1 hr,
+main .our-team-section-2 hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+/* Our Team Section 1 */
+main .our-team-section-1 p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+/* Our Team Section 2 */
+main .our-team-section-2 {
+    background-color: #e6eff8;
+}
+
+main .our-team-section-2 .members {
+    margin-top: 40px;
+}
+
+main .our-team-section-2 .members::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .our-team-section-2 .members .member {
+    float: left;
+    width: 33.3333%;
+}
+
+main .our-team-section-2 .members .member:nth-last-child(3),
+main .our-team-section-2 .members .member:nth-last-child(2),
+main .our-team-section-2 .members .member:last-child {
+    padding-top: 40px;
+}
+
+main .our-team-section-2 .members .member div {
+    width: 250px;
+}
+
+main .our-team-section-2 .members .member:nth-child(2) div,
+main .our-team-section-2 .members .member:nth-child(5) div {
+    margin: auto;
+}
+
+main .our-team-section-2 .members .member:nth-child(3) div,
+main .our-team-section-2 .members .member:last-child div {
+    margin: 0 0 0 auto;
+}
+
+main .our-team-section-2 .members .member img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #00c5ba;
+}
+
+main .our-team-section-2 .members .member h3 {
+    font-weight: 600;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+main .our-team-section-2 .members .member p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    text-align: center;
+    margin: 10px 0 0;
+    opacity: 0.7;
+}

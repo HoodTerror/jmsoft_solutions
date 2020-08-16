@@ -1,0 +1,54 @@
+header .index-background {
+    background-image: url("../../img/main/index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .index-background .index-glass {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header .index-background .headline {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-43.5%);
+    color: #FFFFFF;
+    text-align: center;
+    overflow: hidden;
+}
+
+header .index-background .headline h1 {
+    font-size: 4.5em;
+    font-weight: 600;
+    margin: 0;
+}
+
+header .index-background .headline p {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin-bottom: 90px;
+}
+
+header .index-background .headline a {
+    text-decoration: none;
+    background-image: linear-gradient(#00c5ba, #0f3238);
+    display: inline-block;
+}
+
+header .index-background .headline a div {
+    height: 100%;
+    background-color: #00c5ba;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 16px 44px;
+    transition: background-color 0.5s;
+}
+
+header .index-background .headline a div:hover,
+header .index-background .headline a div:active {
+    background-color: transparent;
+}

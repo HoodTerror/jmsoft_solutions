@@ -1,0 +1,135 @@
+footer {
+    background-image: url("../../img/main/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+footer .footer-glass {
+    height: 100%;
+    background-color: rgba(15, 50, 56, 0.95);
+}
+
+/*    Footer Top:
+---------------------*/
+footer .top {
+    color: #ffffff;
+    padding: 40px 0 105px;
+}
+
+footer .top h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 0;
+}
+
+footer .top hr {
+    background-color: #00c5ba;
+    margin: 40px 0;
+    height: 0.8px;
+    border: none;
+}
+
+footer .top .showcase::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer .top .showcase .get-started,
+footer .top .showcase .services,
+footer .top .showcase .contact {
+    float: left;
+    width: 33.3333%;
+}
+
+footer .top .showcase h3 {
+    margin: 0;
+}
+
+footer .top .showcase ul {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+footer .top .showcase ul li {
+    padding: 3px 0;
+}
+
+footer .top .showcase ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 0.95em;
+    font-weight: 300;
+}
+
+footer .top .showcase ul li span {
+    opacity: 0.6;
+}
+
+footer .top .showcase ul li a:hover,
+footer .top .showcase ul li a:active {
+    text-decoration: underline;
+}
+
+footer .top .showcase .contact .fa-ul {
+    margin-left: 25px;
+}
+
+footer .top .showcase .contact .fa-ul li:nth-child(2) {
+    padding-bottom: 0;
+}
+
+footer .top .showcase .contact .fa-ul li:last-child {
+    padding: 0;
+}
+
+footer .top .showcase .contact .fa-ul li a:hover,
+footer .top .showcase .contact .fa-ul li a:active {
+    text-decoration: none;
+}
+
+/*    Footer Bottom:
+------------------------*/
+footer .bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 12px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .bottom .main-width {
+    overflow: hidden;
+}
+
+footer .bottom p {
+    float: left;
+    color: #ffffff;
+    font-size: 0.85em;
+    margin: 0;
+}
+
+footer .bottom p a {
+    color: #ffffff;
+}
+
+footer .bottom .linkedIn {
+    float: right;
+    font-size: 1.1em;
+}
+
+footer .bottom .linkedIn i {
+    color: #ffffff;
+    opacity: 0.5;
+    transition: color 0.5s, opacity 0.5s;
+}
+
+footer .bottom .linkedIn i:hover,
+footer .bottom .linkedIn i:active {
+    color: #00c5ba;
+    opacity: 1;
+}

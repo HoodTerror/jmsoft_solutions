@@ -1,0 +1,48 @@
+@media screen and (max-width: 1366px) {
+    /*    Header:
+    -----------------*/
+    header .services-background {
+        height: 510px;
+    }
+    
+    header .services-background .caption {
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    /*    Header:
+    -----------------*/
+    header .services-background {
+        height: 480px;
+    }
+    
+    header .services-background .caption {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Header:
+    -----------------*/
+    header .services-background {
+        height: 512px;
+        background-position: right;
+    }
+    
+    header .services-background h1 {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*    Header:
+    -----------------*/
+    header .services-background {
+        height: 400px;
+    }
+    
+    header .services-background h1 {
+        font-size: 2.5em;
+    }
+}

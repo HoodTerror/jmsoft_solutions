@@ -1,0 +1,67 @@
+/*    Header:
+-----------------*/
+header .ref-about-contact-background {
+    background-image: url("../../img/main/contact.jpg");
+    background-position: right center;
+}
+
+/*    Main:
+---------------*/
+main .contact-section-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main .contact-section .info {
+    float: left;
+    width: 55%;
+}
+
+main .contact-section .info h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0;
+}
+
+main .contact-section .info hr {
+    width: 150px;
+    height: 0.8px;
+    margin-left: 0;
+    background-color: #00c5ba;
+    border: none;
+}
+
+main .contact-section .info p {
+    width: 80%;
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 30px 0 40px;
+}
+
+main .contact-section .info h2 {
+    margin: 0;
+}
+
+main .contact-section .info ul {
+    margin: 15px 0 0 25px;
+    font-weight: 600;
+}
+
+main .contact-section .info ul li {
+    padding: 3px 0;
+}
+
+main .contact-section .info iframe {
+    width: 80%;
+    height: 200px;
+    margin-top: 40px;
+    border: 0;
+}
+
+main .contact-section .form {
+    float: left;
+    width: 45%;
+    margin-top: 90px;
+}

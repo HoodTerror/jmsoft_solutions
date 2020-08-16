@@ -1,0 +1,50 @@
+@media screen and (max-width: 992px) {
+    /*    Footer Top:
+    ---------------------*/
+    footer .top {
+        padding-bottom: 175px;
+    }
+    
+    footer .top h1 {
+        text-align: center;
+    }
+    
+    /*    Footer Bottom:
+    ------------------------*/
+    footer .bottom p {
+        float: none;
+        text-align: center;
+    }
+    
+    footer .bottom .linkedIn {
+        float: none;
+        display: block;
+        width: 33px;
+        margin: 12px auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Footer Top:
+    ---------------------*/
+    footer .top .showcase .get-started,
+    footer .top .showcase .services,
+    footer .top .showcase .contact {
+        float: none;
+        width: auto;
+        text-align: center;
+    }
+    
+    footer .top h1 {
+        font-size: 2em;
+    }
+    
+    footer .top .showcase .services {
+        margin: 40px 0;
+    }
+    
+    footer .top .showcase .contact .fa-ul {
+        width: 170px;
+        margin: 20px auto 0;
+    }
+}

@@ -1,0 +1,176 @@
+header {
+    position: relative;
+}
+
+header nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.99);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*    Navigation Menu:
+--------------------------*/
+header nav .menu {
+    padding: 0;
+    list-style-type: none;
+    height: 100%;
+}
+
+header nav .menu > li:first-child {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header nav .menu > li:first-child img {
+    width: 204px;
+    height: 40px;
+}
+
+header nav .menu > li:not(:first-child) {
+    float: right;
+    padding: 0 20px;
+    margin-top: 23px;
+}
+
+header nav .menu > li:nth-child(2) {
+    padding-right: 0;
+}
+
+header nav .menu > li:last-child {
+    padding-left: 0;
+}
+
+header nav .menu > li > a,
+header nav .menu .dropdown-menu li a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header nav .menu > li > a:hover,
+header nav .menu > li > a:active,
+header nav .menu .dropdown-menu li a:hover,
+header nav .menu .dropdown-menu li a:active {
+    color: #00c5ba;
+}
+
+header nav .menu > li > a i {
+    font-size: 1em;
+}
+
+header nav .menu .dropdown {
+    position: relative;
+    height: 70px;
+}
+
+header nav .menu .dropdown-button {
+    cursor: crosshair;
+}
+
+header nav .menu .dropdown-menu {
+    margin: 50px 0;
+    padding: 10px 0;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.99);
+    border: 0.15px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header nav .menu .dropdown-menu::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 27%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent rgba(255, 255, 255, 0.99) transparent;
+}
+
+header nav .menu .dropdown-menu li {
+    padding: 10px 20px;
+    width: 250px;
+}
+
+header nav .menu .dropdown-menu li a {
+    font-size: 0.95em;
+}
+
+header nav .menu .dropdown-menu li a i {
+    font-size: 1em;
+}
+
+/*    Hamburger Button:
+---------------------------*/
+header nav .hamburger-x {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+header nav .hamburger {
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    height: 4px;
+    background-color: #1c1c1c;
+}
+
+header nav .hamburger::before,
+header nav .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: inherit;
+}
+
+header nav .hamburger::before {
+    top: -8px;
+}
+
+header nav .hamburger::after {
+    top: 8px;
+}
+
+header nav .x {
+    height: 100%;
+    transform: rotateX(90deg);
+}
+
+header nav .x div,
+header nav .x div::after {
+    position: absolute;
+    top: 43%;
+    width: 100%;
+    height: 4px;
+    background-color: #1c1c1c;
+    transform: rotate(45deg);
+}
+
+header nav .x div::after {
+    content: "";
+    top: 0;
+    transform: rotate(-90deg);
+}

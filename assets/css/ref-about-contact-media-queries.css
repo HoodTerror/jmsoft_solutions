@@ -1,0 +1,47 @@
+@media screen and (max-width: 1366px) {
+    /*    Header:
+    -----------------*/
+    header .ref-about-contact-background {
+        height: 350px;
+    }
+    
+    header .ref-about-contact-background h1 {
+        right: 10%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    /*    Header:
+    -----------------*/
+    header .ref-about-contact-background {
+        height: 320px;
+    }
+    
+    header .ref-about-contact-background h1 {
+        right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Header:
+    -----------------*/
+    header .ref-about-contact-background {
+        height: 350px;
+    }
+    
+    header .ref-about-contact-background h1 {
+        font-size: 2.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*    Header:
+    -----------------*/
+    header .ref-about-contact-background {
+        height: 273px;
+    }
+    
+    header .ref-about-contact-background h1 {
+        font-size: 2.5em;
+    }
+}

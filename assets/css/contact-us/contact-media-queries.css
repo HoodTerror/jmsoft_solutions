@@ -1,0 +1,58 @@
+@media screen and (max-width: 992px) {
+    /*    Main:
+    ---------------*/
+    main .contact-section .info,
+    main .contact-section .form {
+        float: none;
+        width: 100%;
+    }
+    
+    main .contact-section .info h1 {
+        text-align: center;
+    }
+    
+    main .contact-section .info hr {
+        margin-left: auto;
+    }
+    
+    main .contact-section .info p {
+        width: auto;
+        text-align: center;
+    }
+    
+    main .contact-section .info h2 {
+        text-align: center;
+    }
+    
+    main .contact-section .info ul {
+        width: 185px;
+        margin: 15px auto 0;
+    }
+    
+    main .contact-section .info ul li {
+        text-align: center;
+    }
+    
+    main .contact-section .info iframe {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        margin: 40px auto 0;
+    }
+    
+    main .contact-section .form {
+        float: none;
+        width: 100%;
+        max-width: 800px;
+        margin: 40px auto 0;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Header:
+    -----------------*/
+    header .ref-about-contact-background {
+        background-image: url("../../img/main/contact-2.jpg");
+    }
+}

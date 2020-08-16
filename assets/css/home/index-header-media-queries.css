@@ -1,0 +1,49 @@
+@media screen and (max-width: 992px) {
+    header .background .headline {
+        transform: translateY(-46.5%);
+    }
+    
+    header .background .headline hr {
+        margin-top: 25px;
+    }
+    
+    header .background .headline a {
+        margin-top: 25px;
+        transition: none;
+    }
+    
+    header .background .headline a:hover {
+        background-color: #00c5ba;
+    }
+    
+    header .background .headline a:active {
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header .background .headline h1 {
+        font-size: 2.3em;
+    }
+    
+    header .background .headline p {
+        font-size: 1.1em;
+    }
+    
+    header .background .headline hr {
+        height: 2px;
+    }
+    
+    header .background .headline a {
+        font-size: 0.9em;
+        font-weight: 500;
+        padding: 10px 34px;
+        border: 2px solid #00c5ba;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .background .headline hr {
+        width: 70%;
+    }
+}
