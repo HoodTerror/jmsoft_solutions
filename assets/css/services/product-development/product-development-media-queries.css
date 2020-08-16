@@ -245,6 +245,7 @@
     -----------------*/
     header .services-background {
         background-image: url("../../../img/main/product-development-2.jpg");
+        background-position: right;
     }
     
     /*    Main:
