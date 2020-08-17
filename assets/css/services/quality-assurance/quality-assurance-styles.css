@@ -59,14 +59,6 @@ main .quality-assurance-section-3 .tests h3 {
     text-align: center;
 }
 
-main .quality-assurance-section-1 .qualities .p,
-main .quality-assurance-section-3 .tests .p {
-    text-align: center;
-    font-size: 0.9em;
-    line-height: 1.4em;
-    opacity: 0.7;
-}
-
 /* Quality Assurance Section 1 */
 main .quality-assurance-section-1 .qualities img {
     width: 60px;

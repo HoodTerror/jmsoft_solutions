@@ -34,13 +34,9 @@ main .index-section-5 p {
     margin: 30px 0 50px;
 }
 
-main .index-section-1 .details,
-main .index-section-2 .details {
-    text-align: center;
-    font-size: 0.9em;
-    line-height: 1.4em;
+main .index-section-1 .icon-links .details,
+main .index-section-2 .image-links .details {
     padding: 0 10px;
-    opacity: 0.7;
 }
 
 /*    Index Section 1:

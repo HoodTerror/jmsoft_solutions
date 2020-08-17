@@ -23,6 +23,13 @@ section {
     margin: 0 15%;
 }
 
+.details {
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    opacity: 0.7;
+}
+
 /*    Scroll To Top Button:
 -------------------------------*/
 .scroll-to-top {
