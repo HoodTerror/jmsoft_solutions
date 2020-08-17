@@ -301,7 +301,7 @@ main .index-section-4 .pic-plus-facts .facts .icon {
 
 main .index-section-4 .pic-plus-facts .facts img {
     width: 50px;
-    height: auto;
+    height: 50px;
     position: absolute;
     top: 50%;
     left: 50%;

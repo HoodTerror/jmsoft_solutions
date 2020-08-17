@@ -13,3 +13,83 @@
         height: 300px;
     }
 }
+
+@media screen and (max-width: 992px) {
+    /*    Index Section 1:
+    --------------------------*/
+    main .index-section-1 .icon-links > div {
+        float: none;
+        width: 100%;
+        padding: 0 30px;
+    }
+    
+    main .index-section-1 .icon-links > div:not(:first-child) {
+        padding-top: 40px;
+    }
+    
+    /*    Index Section 4:
+    --------------------------*/
+    main .index-section-4 .pic-plus-facts .pic,
+    main .index-section-4 .pic-plus-facts .facts {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    
+    main .index-section-4 .pic-plus-facts .pic img {
+        width: 100%;
+        max-width: 480px;
+        padding-right: 0;
+        position: static;
+        top: 0;
+        transform: none;
+        margin: auto;
+    }
+    
+    main .index-section-4 .pic-plus-facts .facts {
+        padding: 0;
+    }
+    
+    main .index-section-4 .pic-plus-facts .facts > div {
+        height: auto;
+        padding-top: 40px;
+    }
+    
+    main .index-section-4 .pic-plus-facts .facts .icon {
+        float: none;
+        width: auto;
+        height: auto;
+    }
+    
+    main .index-section-4 .pic-plus-facts .facts img {
+        width: 55px;
+        height: 55px;
+        position: static;
+        top: 0;
+        left: 0;
+        transform: none;
+        display: block;
+        margin: auto;
+    }
+    
+    main .index-section-4 .pic-plus-facts .facts .fact {
+        float: none;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*    Index Section 3:
+    --------------------------*/
+    main .index-section-3 .button-links a {
+        display: block;
+        margin: auto;
+    }
+    
+    main .index-section-3 .button-links a:first-child {
+        margin-bottom: 15px;
+    }
+}
