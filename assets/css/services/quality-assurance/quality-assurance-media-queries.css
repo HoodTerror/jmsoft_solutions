@@ -22,3 +22,14 @@
         background-image: url("../../../img/main/quality-assurance-2.jpg");
     }
 }
+
+@media screen and (max-width: 600px) {
+    /*    Main:
+    ---------------*/
+    /* Quality Assurance Section 1 & 3 */
+    main .quality-assurance-section-1 .qualities > div,
+    main .quality-assurance-section-3 .tests > div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
