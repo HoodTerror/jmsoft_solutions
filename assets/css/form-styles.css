@@ -1,3 +1,5 @@
+/*    Form:
+---------------*/
 form,
 form button {
     font-size: 12.3px;
@@ -76,4 +78,40 @@ form button div {
 
 form button i {
     font-size: 1.2em;
+}
+
+/*    Thank You Message:
+----------------------------*/
+.thank-you-message {
+    display: none;
+    padding: 60px 0 80px;
+}
+
+.thank-you-message h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.thank-you-message hr {
+    width: 150px;
+    height: 0.8px;
+    background-color: #00c5ba;
+    border: none;
+}
+
+.thank-you-message p {
+    font-size: 1.05em;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.thank-you-message img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 40px auto 0;
 }
